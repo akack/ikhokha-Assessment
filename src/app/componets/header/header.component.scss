@@ -1,0 +1,22 @@
+.navbar .flex-1 {
+  flex: 1;
+  flex-basis: 100%;
+}
+
+.main-nav {
+  a {
+    color: black !important;
+  }
+  .navbar-dark .navbar-toggler-icon {
+    color: black !important;
+  }
+}
+.hover-1 {
+  &:hover {
+    border-bottom: 4px solid rgb(71, 177, 212);
+  }
+}
+
+.navbar-dark .navbar-toggler {
+  background-color: rgb(71, 177, 212);
+}

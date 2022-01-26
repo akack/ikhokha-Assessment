@@ -1,0 +1,19 @@
+<div class="container">
+    <h4>Products</h4>
+    <div class="row">
+        <div class="col-md-3 products" *ngFor="let product of products">
+            <div class="d-flex justify-content-center">
+                <img class="product" src="../../../assets/images/{{ product.url }}"/>
+            </div>
+            <hr>
+            <div class="price">
+                <h5>{{ product.name }}</h5>
+                <h4><label>R {{product.price}}</label></h4>
+            </div>
+            <div class="row">
+                <div class="col-md-6"><a class="btn btn-primary btn-product"><span class="glyphicon glyphicon-thumbs-up"></span> Like</a></div>
+                <div class="col-md-6"><a href="#" class="btn btn-success btn-product"><span class="glyphicon glyphicon-shopping-cart"></span> Buy</a></div>
+            </div>
+        </div>
+    </div>
+</div>
